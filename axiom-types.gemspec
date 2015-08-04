@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files       = `git ls-files -- spec/unit`.split($/)
   gem.extra_rdoc_files = %w[LICENSE README.md CONTRIBUTING.md TODO]
 
-  gem.required_ruby_version = '>= 1.9.3'
+  gem.required_ruby_version = '>= 1.9.2'
 
   gem.add_runtime_dependency('descendants_tracker', '~> 0.0',  '>= 0.0.4')
   gem.add_runtime_dependency('ice_nine',            '~> 0.11', '>= 0.11.0')
